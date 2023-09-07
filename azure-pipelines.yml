@@ -84,7 +84,7 @@ stages:
           - download: current
             artifact: drop
           - task: AzureWebApp@1
-            displayName: 'Azure App Service Deploy: 'website'
+            displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'MyARMSubscription'
               appType: 'webAppLinux'
